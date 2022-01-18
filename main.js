@@ -3,7 +3,7 @@ music_2 = "";
 Score_left = 0;
 Score_right = 0;
  function preload(){
-     music_1 = loadSound("SoftKitty.mp3");
+     music_1 = loadSound("Nani Teri Morni Ko - Masoom (1960) 128 Kbps.mp3");
      music_2 = loadSound("a.mp3");
  }
 
@@ -31,7 +31,7 @@ function draw(){
     image(vidau ,0,0, 400 , 400);
 
     if(Score_left >0.2){
-        document.getElementById("Name").innerHTML = "The Song Playing Is - Soft Kitty Warm Kitty";
+        document.getElementById("Name").innerHTML = "The Song Playing Is - Nani Teri Morni Ko";
         music_1.pause();
         music_2.pause(); 
         music_1.play();
